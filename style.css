@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    text-decoration: none;
+}
+.main-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.wrapper-1{
+    background-color: #790F0F;
+    padding: 5em 2em 0;
+}
+.text h1{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-bottom: 0.3em;
+}
+.text p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.7;
+    padding: 1em 0;
+}
+.text p span{
+    color: orange;
+}
+.img{
+    margin-top: 4em;
+}
+.img img{
+    width: 100%;
+}
+.wrapper-2{
+    padding: 5em 5em 0;
+}
+.button a button{
+    background-color: gainsboro;
+    border-radius: 45px;
+    padding: 1em;
+    border: 0;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content: right;
+}
+.heading{
+    line-height: 1.6;
+    margin: 1em 0;
+}
+.flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+}
+.input-control p{
+    font-size: small;
+    padding-bottom: 0.5em;
+}
+.input-control input{
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px gainsboro;
+    padding: 1em;
+}
+.input-control input::placeholder{
+    font-weight: 600;
+}
+.input-control input:focus{
+    border: 2px solid cornflowerblue;
+    outline: none;
+}
+.form-container .input-control{
+    margin-top: 1em;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.phone img{
+    width: 20px;
+}
+.required{
+    margin-top: 1em;
+}
+.required small{
+    color: orangered;
+    font-size: 1.01rem;
+    line-height: 1.9;
+}
+.signup-button{
+    margin-top: 3em;
+}
+.signup-button a button{
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: orangered;
+    border: 0;
+    padding: 1em 0;
+    border-radius: 5px;
+}
+.signup-text p{
+    font-size: small;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.signup-text p span{
+    color: orangered;
+}
